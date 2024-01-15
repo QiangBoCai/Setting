@@ -1,0 +1,398 @@
+ 23:57:27.265   990  3276 E android.hardware.biometrics.fingerprint@2.1-service: onError(3)
+12-24 23:57:27.265  1054  1054 D Fingerprint21: handleError, client: FingerprintEnrollClient, error: 3, vendorCode: 0
+12-24 23:57:27.266  1054  1054 V Biometrics/LoggableMonitor: Enroll latency: 60012
+12-24 23:57:27.266  1054  1054 W Biometrics/LoggableMonitor: Unknown field detected: CLIENT_UNKNOWN
+12-24 23:57:27.266  1054  1054 D Biometrics/AcquisitionClient: onErrorInternal code: 3, finish: true
+12-24 23:57:27.266  1054  1054 V Biometrics/LoggableMonitor: Error latency: -1
+12-24 23:57:27.266  1054  1054 W Biometrics/LoggableMonitor: Unknown field detected: CLIENT_UNKNOWN
+12-24 23:57:27.266  1054  1054 W Biometrics/LoggableMonitor: found a negative latency : -1
+12-24 23:57:27.269   599   599 I OriginChannel: activate: [5,0]
+12-24 23:57:27.275  1054  1054 D BiometricScheduler/Fingerprint21: [Finishing] {[11] FingerprintEnrollClient, proto=2, owner=com.android.settings, cookie=0, userId=0}, success: false
+12-24 23:57:27.275  1388  1388 V UdfpsController: hideUdfpsOverlay | removing window
+12-24 23:57:27.276  1054  1054 D FingerprintService: Client finished, fps state updated to 0, client {[11] FingerprintEnrollClient, proto=2, owner=com.android.settings, cookie=0, userId=0}
+12-24 23:57:27.276  1054  1054 D GestureAvailabilityTracker: Notifying gesture availability, active=true
+12-24 23:57:27.277  1054  1054 D BiometricScheduler/Fingerprint21: No operations, returning to idle
+12-24 23:57:27.277  1388  1717 I BufferQueueProducer: [ViewRootImpl[UdfpsController]#10(BLAST Consumer)10](id:56c0000000a,api:1,p:1388,c:1388) disconnect: api 1
+12-24 23:57:27.279  1388  1388 D View    : [Warning] assignParent to null: this = com.android.systemui.biometrics.UdfpsView{9d052e1 V.E...... ........ 0,0-800,800 #7f0b061a app:id/udfps_view}
+12-24 23:57:27.279   585   762 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1
+12-24 23:57:27.282  1388  1388 V UdfpsView: onDetachedFromWindow
+12-24 23:57:27.283  1388  1388 I BLASTBufferQueue: [ViewRootImpl[UdfpsController]#10] destructor()
+12-24 23:57:27.283  1388  1388 I BufferQueueConsumer: [ViewRootImpl[UdfpsController]#10(BLAST Consumer)10](id:56c0000000a,api:0,p:-1,c:1388) disconnect
+12-24 23:57:27.287  1054  1740 W InputManager-JNI: Input channel object 'e76e031 UdfpsController (client)' was disposed without first being removed with the input manager!
+12-24 23:57:27.289  1054  1740 D WindowManager: setParent old=WindowToken{29414d8 android.os.BinderProxy@1e27bb},new=null,this window=Window{e76e031 u0 UdfpsController},callers=com.android.server.wm.WindowContainer.removeChild:594 com.android.server.wm.WindowContainer.removeImmediately:646 com.android.server.wm.WindowState.removeImmediately:2380 com.android.server.wm.WindowState.removeIfPossible:2567 com.android.server.wm.WindowState.removeIfPossible:2437 com.android.server.wm.WindowManagerService.removeWindow:2053
+12-24 23:57:27.291  1054  1740 D WindowManager: setParent old=Leaf:20:23@15953045,new=null,this window=WindowToken{29414d8 android.os.BinderProxy@1e27bb},callers=com.android.server.wm.WindowContainer.removeChild:594 com.android.server.wm.WindowContainer.removeImmediately:646 com.android.server.wm.WindowToken.setExiting:237 com.android.server.wm.DisplayContent.removeWindowToken:1171 com.android.server.wm.WindowToken.removeImmediately:356 com.android.server.wm.WindowManagerService.postWindowRemoveCleanupLocked:2099
+12-24 23:57:27.295   585   762 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1
+12-24 23:57:27.298  1054  1740 I SurfaceControl: ~SurfaceControl: layerId=1073742162
+12-24 23:57:27.304   650   650 I BufferQueueDebug: [UdfpsController#0](this:0xb40000745c84e528,id:-1,api:0,p:-1,c:650) onDestructor()
+12-24 23:57:27.304  1388  2023 I BLASTBufferQueue: releaseBufferCallbackThunk bufferId:5961414606913 framenumber:1 blastBufferQueue is dead
+12-24 23:57:27.310   585   585 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.036720,dur:27232.80,max:27232.80,min:27232.80
+12-24 23:57:27.311   585   758 D hwcomposer: (0:0) Layer+ (mva=0x0/sec=0/prot=0/fmt=2/alpha=0:0xff/blend=0001/dim=0/range=0/x=0 y=0 w=1080 h=2400 s=1088 -> x=0 y=0 w=1080 h=2400/ext_layer=-1 ds=0 fbdc=1 is_mml=0) =
+12-24 23:57:27.311   585   758 D hwcomposer: (0:1) Layer+ (mva=0x0/sec=0/prot=0/fmt=1/alpha=1:0xff/blend=0002/dim=0/range=0/x=0 y=0 w=1080 h=120 s=1088 -> x=0 y=0 w=1080 h=120/ext_layer=-1 ds=0 fbdc=1 is_mml=0) =
+12-24 23:57:27.312   585   758 D hwcomposer: (0:2) Layer+ (mva=0x0/sec=0/prot=0/fmt=1/alpha=1:0xff/blend=0002/dim=0/range=0/x=0 y=0 w=1080 h=144 s=1088 -> x=0 y=2256 w=1080 h=144/ext_layer=1 ds=0 fbdc=1 is_mml=0) =
+12-24 23:57:27.312   585   762 I hwcomposer: [DRMDEV] (0) failed to waitNextVsync: -1
+12-24 23:57:27.316   650   650 I Layer   : ~Layer: layerId=1073742162, name=WindowToken{29414d8 android.os.BinderProxy@1e27bb}#0
+^C
+C:\Users\xiaotao>
+
+
+//1.跳转到指纹录入界面 
+
+     C:\Users\xiaotao>adb push C:\Users\xiaotao\Desktop\MtkSettings.apk /system_ext/priv-app/MtkSettings/
+C:\Users\xiaotao\Desktop\MtkSettings.apk: 1 file pushed, 0 skipped. 75.2 MB/s (46246657 bytes in 0.586s)
+
+C:\Users\xiaotao>adb reboot
+adb shell am start -n com.android.settings/.biometrics.fingerprint.FingerprintEnrollEnrolling --ez "fromFactoryKit" true
+
+01-14 02:58:04.074  1698  1698 D xiaotao : FingerprintEnrollEnrolling onCreate
+01-14 02:58:04.074  1698  1698 D xiaotao : fromFactoryKit =true
+01-14 02:58:04.078  1698  1698 D xiaotao : setLockCredential success=false
+01-14 02:58:04.590  1698  2395 D xiaotao : response=Response: 0, GK HAT: false, GK PW: true
+01-14 02:58:04.590  1698  2395 D xiaotao : response.isMatched()=true response.containsGatekeeperPasswordHandle()=true
+01-14 02:58:04.590  1698  2395 D xiaotao : response.getGatekeeperPasswordHandle()=8801454447220918364
+01-14 02:58:04.596  1698  2395 D xiaotao : response.getGatekeeperPasswordHandle()-
+01-14 02:58:06.113  1698  1698 D xiaotao : generateChallenge mUserId=0 sensorId=0 userId=0 challenge=831639633656460065701-14 02:58:06.126  1698  1698 D xiaotao : token=��Q�J�g�is�jA\������������������������������������������������������������� ����������������������������������������
+01-14 02:58:41.167  1698  1698 D xiaotao : FingerprintEnrollEnrolling onCreate
+01-14 02:58:41.167  1698  1698 D xiaotao : fromFactoryKit =true
+01-14 02:58:41.168  1698  1698 D xiaotao : setLockCredential success=false
+01-14 02:58:41.200  1698  3161 D xiaotao : response=Response: 0, GK HAT: false, GK PW: true
+01-14 02:58:41.200  1698  3161 D xiaotao : response.isMatched()=true response.containsGatekeeperPasswordHandle()=true
+01-14 02:58:41.200  1698  3161 D xiaotao : response.getGatekeeperPasswordHandle()=-3651369083931055927
+01-14 02:58:41.201  1698  3161 D xiaotao : response.getGatekeeperPasswordHandle()-
+01-14 02:58:43.168  1698  1698 D xiaotao : onCreate mToken=��Q�J�g�is�jA\����������������������������������������������������������������������������������������������������� mCanAssumeUdfps=true
+01-14 02:58:43.238  1698  1698 D xiaotao : Enrollment not started yet
+01-14 02:58:43.260  1698  1698 D xiaotao : generateChallenge mUserId=0 sensorId=0 userId=0 challenge=-6072315570388993038
+01-14 02:58:43.262  1698  1698 D xiaotao : token=�����F)ͺ��jA\����������������������������������������������������������������������������������������
+
+
+
+
+private void startLookingForFingerprint() {
+        if (mCanAssumeUdfps) {
+            // UDFPS devices use this screen as an educational screen. Users should tap the
+            // "Start" button to move to the next screen to begin enrollment.
+            return;
+        }
+        mSidecar = (FingerprintEnrollSidecar) getSupportFragmentManager().findFragmentByTag(
+                FingerprintEnrollEnrolling.TAG_SIDECAR);
+        if (mSidecar == null) {
+            mSidecar = new FingerprintEnrollSidecar();
+            mSidecar.setEnrollReason(FingerprintManager.ENROLL_FIND_SENSOR);
+            getSupportFragmentManager().beginTransaction()
+                    .add(mSidecar, FingerprintEnrollEnrolling.TAG_SIDECAR)
+                    .commitAllowingStateLoss();
+        }
+        mSidecar.setListener(this);
+    }
+	
+	
+    private void stopLookingForFingerprint() {
+        if (mSidecar != null) {
+            mSidecar.setListener(null);
+            mSidecar.cancelEnrollment();
+            getSupportFragmentManager()
+                    .beginTransaction().remove(mSidecar).commitAllowingStateLoss();
+            mSidecar = null;
+        }
+    }
+	
+	
+//2.创建密码，验证获取token VerifyCredentialResponse
+private LockscreenCredential mChosenPassword=LockscreenCredential.createPassword("123456")；
+  if (mChosenPassword != null) {
+                mChosenPassword.zeroize();
+            }
+            if (mCurrentCredential != null) {
+                mCurrentCredential.zeroize();
+            }
+            if (mFirstPassword != null) {
+                mFirstPassword.zeroize();
+            }
+import android.hardware.fingerprint.FingerprintManager;
+import com.android.settings.Utils;
+	     private FingerprintManager mFingerprintManager;
+    mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
+   mFingerprintManager.generateChallenge(mUserId,
+                                (sensorId, userId, challenge) -> {
+                                    mToken = BiometricUtils.requestGatekeeperHat(getActivity(),
+                                            data,
+                                            mUserId, challenge);
+                                    mChallenge = challenge;
+                                    BiometricUtils.removeGatekeeperPasswordHandle(getActivity(),
+                                            data);
+                                    updateAddPreference();
+                        });
+						
+						
+						
+mToken = getIntent().getByteArrayExtra(
+                    ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN);
+					
+					        <activity android:name=".biometrics.fingerprint.FingerprintSettings" android:exported="true"/>
+        <activity android:name=".biometrics.fingerprint.FingerprintEnrollFindSensor" android:exported="true"/>
+        <activity android:name=".biometrics.fingerprint.FingerprintEnrollEnrolling" android:exported="true"/>
+        <activity android:name=".biometrics.fingerprint.FingerprintEnrollFinish" android:exported="true"/>
+        <activity android:name=".biometrics.fingerprint.FingerprintEnrollParentalConsent" android:exported="true"/>
+        <activity android:name=".biometrics.fingerprint.FingerprintEnrollIntroduction"
+            android:exported="true"
+            android:theme="@style/GlifTheme.Light">
+            <intent-filter>
+                <action android:name="android.settings.FINGERPRINT_ENROLL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+FingerprintEnrollFinish.java
+    private void launchFingerprintSettings() {
+        final Intent intent = new Intent(ACTION_FINGERPRINT_SETTINGS);
+        intent.setPackage(Utils.SETTINGS_PACKAGE_NAME);
+        intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN, mToken);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        intent.putExtra(Intent.EXTRA_USER_ID, mUserId);
+        intent.putExtra(BiometricEnrollBase.EXTRA_KEY_CHALLENGE, mChallenge);
+        startActivity(intent);
+        overridePendingTransition(R.anim.sud_slide_back_in, R.anim.sud_slide_back_out);
+    }
+	
+	FingerprintEnrollIntroduction
+	   private void launchNextEnrollingActivity(byte[] token) {
+        Intent intent = getEnrollingIntent();
+        if (token != null) {
+            intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN, token);
+        }
+        if (mUserId != UserHandle.USER_NULL) {
+            intent.putExtra(Intent.EXTRA_USER_ID, mUserId);
+        }
+        BiometricUtils.copyMultiBiometricExtras(getIntent(), intent);
+        intent.putExtra(EXTRA_FROM_SETTINGS_SUMMARY, mFromSettingsSummary);
+        intent.putExtra(EXTRA_KEY_CHALLENGE, mChallenge);
+        intent.putExtra(EXTRA_KEY_SENSOR_ID, mSensorId);
+        startActivityForResult(intent, BIOMETRIC_FIND_SENSOR_REQUEST);
+    }
+	
+	
+	//
+	.FingerprintEnrollFindSensor
+        // This is an entry point for SetNewPasswordController, e.g.
+        // adb shell am start -a android.app.action.SET_NEW_PASSWORD
+        if (mToken == null && BiometricUtils.containsGatekeeperPasswordHandle(getIntent())) {
+            final FingerprintManager fpm = getSystemService(FingerprintManager.class);
+            fpm.generateChallenge(mUserId, (sensorId, userId, challenge) -> {
+                mChallenge = challenge;
+                mSensorId = sensorId;
+                mToken = BiometricUtils.requestGatekeeperHat(this, getIntent(), mUserId, challenge);
+
+                // Put this into the intent. This is really just to work around the fact that the
+                // enrollment sidecar gets the HAT from the activity's intent, rather than having
+                // it passed in.
+                getIntent().putExtra(ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN, mToken);
+
+                startLookingForFingerprint();
+            });
+			
+			
+Z:\mtk61_62_65_s0_alps\vendor\mediatek\proprietary\packages\apps\MtkSettings\src\com\android\settings\biometrics\BiometricUtils.java
+    public static byte[] requestGatekeeperHat(@NonNull Context context, @NonNull Intent result,
+            int userId, long challenge) {
+        if (!containsGatekeeperPasswordHandle(result)) {
+            throw new IllegalStateException("Gatekeeper Password is missing!!");
+        }
+        final long gatekeeperPasswordHandle = result.getLongExtra(
+                ChooseLockSettingsHelper.EXTRA_KEY_GK_PW_HANDLE, 0L);
+        return requestGatekeeperHat(context, gatekeeperPasswordHandle, userId, challenge);
+    }
+
+    public static byte[] requestGatekeeperHat(@NonNull Context context, long gkPwHandle, int userId,
+            long challenge) {
+        final LockPatternUtils utils = new LockPatternUtils(context);
+        final VerifyCredentialResponse response = utils.verifyGatekeeperPasswordHandle(gkPwHandle,
+                challenge, userId);
+        if (!response.isMatched()) {
+            throw new IllegalStateException("Unable to request Gatekeeper HAT");
+        }
+        return response.getGatekeeperHAT();
+    }
+	
+	//解锁获取到token，跳转到指纹录入界面
+	Z:\mtk61_62_65_s0_alps\vendor\mediatek\proprietary\packages\apps\MtkSettings\src\com\android\settings\password\ChooseLockPassword.java
+	
+	       private void startCheckPassword(final LockscreenCredential credential,
+                final Intent intent) {
+            final int localEffectiveUserId = mEffectiveUserId;
+            mPendingLockCheck = LockPatternChecker.checkCredential(
+                    mLockPatternUtils,
+                    credential,
+                    localEffectiveUserId,
+                    new LockPatternChecker.OnCheckCallback() {
+                        @Override
+                        public void onChecked(boolean matched, int timeoutMs) {
+                            mPendingLockCheck = null;
+                            if (matched && isInternalActivity() && mReturnCredentials) {
+                                // TODO: get rid of EXTRA_KEY_TYPE, since EXTRA_KEY_PASSWORD already
+                                // distinguishes beteween PIN and password.
+                                intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_TYPE,StorageManager.CRYPT_TYPE_PASSWORD);
+                                intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_PASSWORD, credential);
+                            }
+                            mCredentialCheckResultTracker.setResult(matched, intent, timeoutMs,
+                                    localEffectiveUserId);
+                        }
+                    });
+        }
+		
+		
+	        private void startVerifyPassword(LockscreenCredential credential, final Intent intent,
+                @LockPatternUtils.VerifyFlag int flags) {
+            final int localEffectiveUserId = mEffectiveUserId;
+            final int localUserId = mUserId;
+            final LockPatternChecker.OnVerifyCallback onVerifyCallback = (response, timeoutMs) -> {
+                mPendingLockCheck = null;
+                final boolean matched = response.isMatched();
+                if (matched && mReturnCredentials) {
+                    if ((flags & LockPatternUtils.VERIFY_FLAG_REQUEST_GK_PW_HANDLE) != 0) {
+                        intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_GK_PW_HANDLE,
+                                response.getGatekeeperPasswordHandle());
+                    } else {
+                        intent.putExtra(
+                                ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN,
+                                response.getGatekeeperHAT());
+                    }
+                }
+                mCredentialCheckResultTracker.setResult(matched, intent, timeoutMs,
+                        localEffectiveUserId);
+            };
+            mPendingLockCheck = (localEffectiveUserId == localUserId)
+                    ? LockPatternChecker.verifyCredential(mLockPatternUtils, credential,
+                            localUserId, flags, onVerifyCallback)
+                    : LockPatternChecker.verifyTiedProfileChallenge(mLockPatternUtils, credential,
+                            localUserId, flags, onVerifyCallback);
+        }		
+		
+		
+//3.修改指纹录入进度条
+
+	
+//4.删除指纹和密码
+		
+		  <string name="unlock_disable_frp_warning_title" msgid="3606280046362811229">"要删除屏幕锁定方式吗？"</string>
+  Z:\mtk61_62_65_s0_alps\vendor\mediatek\proprietary\packages\apps\MtkSettings\src\com\android\settings\password\ChooseLockGeneric.java
+  
+        private void showFactoryResetProtectionWarningDialog(String unlockMethodToSet) {
+            int title = getResIdForFactoryResetProtectionWarningTitle();
+            int message = getResIdForFactoryResetProtectionWarningMessage();
+            FactoryResetProtectionWarningDialog dialog =
+                    FactoryResetProtectionWarningDialog.newInstance(
+                            title, message, unlockMethodToSet);
+            dialog.show(getChildFragmentManager(), TAG_FRP_WARNING_DIALOG);
+        }
+		  .setPositiveButton(R.string.unlock_disable_frp_warning_ok,
+                                (dialog, whichButton) -> {
+                                    String unlockMethod = args.getString(ARG_UNLOCK_METHOD_TO_SET);
+                                    ((ChooseLockGenericFragment) getParentFragment())
+                                            .setUnlockMethod(unlockMethod);
+                                })
+							
+							
+		private boolean setUnlockMethod(String unlockMethod) {
+            EventLog.writeEvent(EventLogTags.LOCK_SCREEN_TYPE, unlockMethod);
+
+            ScreenLockType lock = ScreenLockType.fromKey(unlockMethod);
+            if (lock != null) {
+                switch (lock) {
+                    case NONE:
+                    case SWIPE:
+                        updateUnlockMethodAndFinish(
+                                lock.defaultQuality,
+                                lock == ScreenLockType.NONE,
+                                false /* chooseLockSkipped */);
+                        return true;
+                    case PATTERN:
+                    case PIN:
+                    case PASSWORD:
+                    case MANAGED:
+                        maybeEnableEncryption(lock.defaultQuality, false);
+                        return true;
+                }
+            }
+            Log.e(TAG, "Encountered unknown unlock method to set: " + unlockMethod);
+            return false;
+        }
+
+
+
+  void updateUnlockMethodAndFinish(int quality, boolean disabled, boolean chooseLockSkipped) {
+            // We should never get here without confirming user's existing password.
+            if (!mPasswordConfirmed) {
+                throw new IllegalStateException("Tried to update password without confirming it");
+            }
+
+            quality = mController.upgradeQuality(quality);
+            Intent intent = getIntentForUnlockMethod(quality);
+            if (intent != null) {
+                if (getIntent().getBooleanExtra(EXTRA_SHOW_OPTIONS_BUTTON, false)) {
+                    intent.putExtra(EXTRA_SHOW_OPTIONS_BUTTON, chooseLockSkipped);
+                }
+                intent.putExtra(EXTRA_CHOOSE_LOCK_GENERIC_EXTRAS, getIntent().getExtras());
+                // If the caller requested Gatekeeper Password Handle to be returned, we assume it
+                // came from biometric enrollment. onActivityResult will put the LockSettingsService
+                // into the extras and launch biometric enrollment. This should be cleaned up,
+                // since requesting a Gatekeeper Password Handle should not imply it came from
+                // biometric setup/settings.
+                startActivityForResult(intent,
+                        mIsSetNewPassword && mRequestGatekeeperPasswordHandle
+                                ? CHOOSE_LOCK_BEFORE_BIOMETRIC_REQUEST
+                                : CHOOSE_LOCK_REQUEST);
+                return;
+            }
+
+            if (quality == DevicePolicyManager.PASSWORD_QUALITY_UNSPECIFIED) {
+                // Clearing of user biometrics when screen lock is cleared is done at
+                // LockSettingsService.removeBiometricsForUser().
+                if (mUserPassword != null) {
+                    // No need to call setLockCredential if the user currently doesn't
+                    // have a password
+                    mLockPatternUtils.setLockCredential(
+                            LockscreenCredential.createNone(), mUserPassword, mUserId);
+                }
+                mLockPatternUtils.setLockScreenDisabled(disabled, mUserId);//ScreenLockType.NONE,
+                getActivity().setResult(Activity.RESULT_OK);
+                finish();
+            }
+        }
+		
+		 LockPatternUtils mLockPatternUtils   = new LockPatternUtils(activity);
+//5.返回测试结果
+
+
+--------- beginning of main
+01-13 19:56:18.571  1692  1692 D xiaotao : FingerprintEnrollEnrolling onCreate
+01-13 19:56:19.031  1692  1692 D xiaotao : setLockCredential success=true
+01-13 19:56:19.073  1692  3127 D xiaotao : response=Response: 0, GK HAT: false, GK PW: true
+01-13 19:56:19.073  1692  3127 D xiaotao : response.isMatched()=true response.containsGatekeeperPasswordHandle()=true
+01-13 19:56:19.073  1692  3127 D xiaotao : response.getGatekeeperPasswordHandle()=-8045648739793783708
+
+01-13 19:56:19.074  1692  3127 D xiaotao : response.getGatekeeperPasswordHandle()-
+01-13 19:56:21.032  1692  1692 D xiaotao : FingerprintEnrollEnrolling e=Attempt to get length of null array
+01-13 19:57:08.060  3136  3136 D xiaotao : FingerprintEnrollEnrolling onCreate
+01-13 19:57:08.563  3136  3136 D xiaotao : setLockCredential success=true
+01-13 19:57:08.603  3136  3262 D xiaotao : response=Response: 0, GK HAT: false, GK PW: true
+01-13 19:57:08.603  3136  3262 D xiaotao : response.isMatched()=true response.containsGatekeeperPasswordHandle()=true
+01-13 19:57:08.603  3136  3262 D xiaotao : response.getGatekeeperPasswordHandle()=8669134017263506286
+01-13 19:57:08.604  3136  3262 D xiaotao : response.getGatekeeperPasswordHandle()-
+01-13 19:57:10.564  3136  3136 D xiaotao : FingerprintEnrollEnrolling e=Attempt to get length of null array
+
+
+GK_HAT
+C:\Users\xiaotao>adb shell am start -a android.app.action.SET_NEW_PASSWORD
+Starting: Intent { act=android.app.action.SET_NEW_PASSWORD }
+
+
+01-13 21:25:11.251  1701  1701 D xiaotao : mUserId=0
+01-13 21:25:30.148  1701  1806 E xiaotao : mUserId: 0
+01-13 21:25:34.263  1701  1701 D xiaotao : getChallenge mUserId=0 sensorId=0 userId=0 challenge=8316396336564600657
+01-13 21:25:34.264  1701  1701 D xiaotao : Removed handle
+01-13 21:26:49.735  1701  1701 D xiaotao : FingerprintEnrollEnrolling onCreate
+01-13 21:26:49.737  1701  1701 D xiaotao : setLockCredential success=false
+01-13 21:26:49.782  1701  3180 D xiaotao : response=Response: 0, GK HAT: false, GK PW: true
+01-13 21:26:49.782  1701  3180 D xiaotao : response.isMatched()=true response.containsGatekeeperPasswordHandle()=true
+01-13 21:26:49.782  1701  3180 D xiaotao : response.getGatekeeperPasswordHandle()=4336464959839440795
+01-13 21:26:49.783  1701  3180 D xiaotao : response.getGatekeeperPasswordHandle()-
+01-13 21:26:51.739  1701  1701 D xiaotao : FingerprintEnrollEnrolling e=Attempt to get length of null array
